@@ -1,0 +1,16 @@
+C:\Users\jerhy\source\repos\DependencySync\DependencySync\bin\Debug\net6.0\DependencySync.exe
+C:\Users\jerhy\source\repos\DependencySync\DependencySync\bin\Debug\net6.0\DependencySync.deps.json
+C:\Users\jerhy\source\repos\DependencySync\DependencySync\bin\Debug\net6.0\DependencySync.runtimeconfig.json
+C:\Users\jerhy\source\repos\DependencySync\DependencySync\bin\Debug\net6.0\DependencySync.dll
+C:\Users\jerhy\source\repos\DependencySync\DependencySync\bin\Debug\net6.0\ref\DependencySync.dll
+C:\Users\jerhy\source\repos\DependencySync\DependencySync\bin\Debug\net6.0\DependencySync.pdb
+C:\Users\jerhy\source\repos\DependencySync\DependencySync\obj\Debug\net6.0\DependencySync.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerhy\source\repos\DependencySync\DependencySync\obj\Debug\net6.0\DependencySync.AssemblyInfoInputs.cache
+C:\Users\jerhy\source\repos\DependencySync\DependencySync\obj\Debug\net6.0\DependencySync.AssemblyInfo.cs
+C:\Users\jerhy\source\repos\DependencySync\DependencySync\obj\Debug\net6.0\DependencySync.ImplicitNamespaceImports.cs
+C:\Users\jerhy\source\repos\DependencySync\DependencySync\obj\Debug\net6.0\DependencySync.csproj.CoreCompileInputs.cache
+C:\Users\jerhy\source\repos\DependencySync\DependencySync\obj\Debug\net6.0\DependencySync.dll
+C:\Users\jerhy\source\repos\DependencySync\DependencySync\obj\Debug\net6.0\ref\DependencySync.dll
+C:\Users\jerhy\source\repos\DependencySync\DependencySync\obj\Debug\net6.0\DependencySync.pdb
+C:\Users\jerhy\source\repos\DependencySync\DependencySync\obj\Debug\net6.0\DependencySync.genruntimeconfig.cache
+C:\Users\jerhy\source\repos\DependencySync\DependencySync\obj\Debug\net6.0\DependencySync.csproj.AssemblyReference.cache
