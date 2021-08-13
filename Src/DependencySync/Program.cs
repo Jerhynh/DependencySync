@@ -13,6 +13,21 @@ namespace DependencySync
             Console.Title = "SentinelSec Dependency Sync";
             Console.WriteLine("Initializing Dependency Sync...");
             DSOperation SyncOperation = ArgumentParsing.ParseArgs(args);
+            try
+            {
+                SyncWorker(SyncOperation);
+            }
+            catch (IOException e)
+            {
+                Console.WriteLine(e.Message);
+                Environment.Exit(1);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("An exception has occurred while performing an active sync job!");
+                Console.WriteLine(e.Message);
+                Environment.Exit(1);
+            }
         }
 
         private static void SyncWorker(DSOperation SyncOperation)
@@ -32,9 +47,8 @@ namespace DependencySync
                 }
                 else
                 {
-                    Console.WriteLine("Unable to sync {}");
+                    Console.WriteLine($"Unable to sync dependency: {dependency}! No valid sync operation could be determined.");
                 }
-                
             }
         }
 
@@ -73,4 +87,5 @@ namespace DependencySync
                 }
             }
         }
+    }
 }
