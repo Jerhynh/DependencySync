@@ -69,7 +69,7 @@ namespace DependencySync.CLIService
                             Console.WriteLine("Exiting...");
                             Environment.Exit(1);
                         }
-                        if (File.Exists(deliveryPath) || Directory.Exists(deliveryPath))
+                        if (Directory.Exists(deliveryPath))
                         {
                             Console.WriteLine($"Found Delivery Path: {deliveryPath}");
                             operation.DeliveryPath = deliveryPath;

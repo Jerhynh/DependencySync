@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DependencySync": {
+      "commandName": "Project",
+      "commandLineArgs": "-DependencyPath=\"C:\\Users\\jerhy\\Documents\\GitHub\\LibSentinel\\LibSentinel\\LibSentinel\\bin\\Release\\net6.0\\ref\\LibSentinel.dll\" -DeliveryPath=\"C:\\Users\\jerhy\\Documents\""
+    }
+  }
+}

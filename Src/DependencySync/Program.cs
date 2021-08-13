@@ -39,11 +39,14 @@ namespace DependencySync
             {
                 if (File.Exists(dependency))
                 {
-                    File.Copy(dependency, SyncOperation.DeliveryPath);
+                    // format for destination path must include dependency filename.
+                    File.Copy(dependency, Path.Combine(SyncOperation.DeliveryPath, Path.GetFileName(dependency)), true);
+                    Console.WriteLine($"Synchronized {Path.GetFileName(dependency)} to {SyncOperation.DeliveryPath}");
                 }
                 else if (Directory.Exists(dependency))
                 {
                     DirectoryCopy(dependency, SyncOperation.DeliveryPath, SyncOperation.CopySubDirectories);
+                    Console.WriteLine($"Synchronized {dependency} to {SyncOperation.DeliveryPath}");
                 }
                 else
                 {
@@ -55,7 +58,7 @@ namespace DependencySync
         private static void DirectoryCopy(string sourceDirName, string destDirName, bool copySubDirs)
         {
             // Get the subdirectories for the specified directory.
-            DirectoryInfo dir = new DirectoryInfo(sourceDirName);
+            DirectoryInfo dir = new(sourceDirName);
 
             if (!dir.Exists)
             {
