@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jerhy\\source\\repos\\DependencySync\\DependencySync\\DependencySync.csproj",
+      "projectUniqueName": "C:\\Users\\jerhy\\Documents\\GitHub\\DependencySync\\Src\\DependencySync\\DependencySync.csproj",
       "projectName": "DependencySync",
-      "projectPath": "C:\\Users\\jerhy\\source\\repos\\DependencySync\\DependencySync\\DependencySync.csproj",
+      "projectPath": "C:\\Users\\jerhy\\Documents\\GitHub\\DependencySync\\Src\\DependencySync\\DependencySync.csproj",
       "packagesPath": "C:\\Users\\jerhy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jerhy\\source\\repos\\DependencySync\\DependencySync\\obj\\",
+      "outputPath": "C:\\Users\\jerhy\\Documents\\GitHub\\DependencySync\\Src\\DependencySync\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jerhy\\AppData\\Roaming\\NuGet\\NuGet.Config",

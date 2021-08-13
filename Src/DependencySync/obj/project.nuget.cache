@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "98tun+/NiPuqMvAh+7oFE1lNmW9PL5wD47T5NO97UaNR2++IBGa5mEWmgAAxsjS34bDOgpvTkTtLzsYXKUtuMQ==",
+  "dgSpecHash": "EQPFjmOWqI4l4y0fZFQ+YCKaQh+7IKFF9JTZJ/6+OXt78W7f2IW+o6ZoE9KECw4tjxBjOj6vORlZvBoVCJfsQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jerhy\\source\\repos\\DependencySync\\DependencySync\\DependencySync.csproj",
+  "projectFilePath": "C:\\Users\\jerhy\\Documents\\GitHub\\DependencySync\\Src\\DependencySync\\DependencySync.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

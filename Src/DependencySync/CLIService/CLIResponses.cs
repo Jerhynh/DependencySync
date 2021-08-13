@@ -15,7 +15,7 @@
             Console.WriteLine("Dependency Sync is a tool to make synchronizing dependencies between multiple projects fast and easy.");
             Console.WriteLine("For best usage: Pair Dependency Sync with a .bat or .sh script to further automate synchronization.");
             Console.WriteLine("Avaliable CLI Flags:");
-            Console.WriteLine("-DependencyPath: Specifies a dependency file/folder to be moved to the delivery path.");
+            Console.WriteLine("-DependencyPath: Specifies a dependency (file/folder) to be moved to the delivery path.");
             Console.WriteLine("-DeliveryPath: Specifies a delivery location (folder) for dependencies to be moved to.");
             Console.WriteLine("-usage: Displays the default message that shows when no command line arguments are passed.");
             Console.WriteLine("-help: Displays this message.");
